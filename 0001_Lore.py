@@ -27,10 +27,20 @@
 #    + " Zeichen. Dagegen haben i, z, w und s " + str(len(i + z + w + s)) + " Zeichen.")
 
 ###################################################################
-i = 0
-while i < 10: # while = w
-    print(i)
-    i = i + 1
-    print(i)
-else: #else = sonst
-    print("Jetzt ist Schluss, denn i ist nicht mehr kleiner als 10.") 
+#i = 0
+#while i < 10: # while = w
+#    print(i)
+#    i = i + 1
+#    print(i)
+#else: #else = sonst
+#    print("Jetzt ist Schluss, denn i ist nicht mehr kleiner als 10.")
+#
+#######################################################################
+print("Ob du richtig liegst siehst du wenn 10, 20, 30, 40, 50, 60, 70, 80, 90 und 100 da steht.")
+h = 0
+while h < 100: 
+    #print(h)
+    h = h + 10
+    print(h)
+else:
+    print("Du liegst richtig.")
