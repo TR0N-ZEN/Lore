@@ -1,21 +1,13 @@
-i = 1
-e = "10.08."
+def Lotto(Frage, antwort):
+    z = 1
+    while z != 2:
+        q =input(Frage)
+        if q == antwort:
+            print("RICHTIG")
+            z = 2  
+        else:
+            print("ENDE")
+                  
 
-while i != 2:
-    q = input("Wann hat Lore Geburtstag?")
-    if q == e:
-        print("!!!RICHTIG!!!")
-        i = 2
-    else:
-        print("...Rate weiter...")
-
-i = 1
-e = "110"
-
-while i != 2:
-    q = input("Wie lautet die Telefon Nummer der Polizei?")
-    if q == e:
-        print("!!!RICHTIG!!!")
-        i = 2
-    else:
-        print("...Rate weiter...")
+Lotto("Wie viel Wasser in Prozent umgibt die Erde?", "70%")
+      
